@@ -85,13 +85,13 @@ bot.on('message', message => {
         case 'help':
             bot.commands.get('help').execute(message);
             break;
-        case 'help fun':
+        case 'fun':
             bot.commands.get('fun').execute(message);
             break;
-        case 'help mod':
+        case 'mod':
             bot.commands.get('mod').execute(message);
             break;
-        case 'help misc':
+        case 'misc':
             bot.commands.get('misc').execute(message);
             break;
     }
