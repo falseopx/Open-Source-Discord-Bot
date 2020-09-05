@@ -68,13 +68,16 @@ bot.on('message', message => {
             bot.commands.get('meme').execute(message);
             break;
         case 'rps':
-            bot.commands.get('rps').execute(message, args, bot);
+            bot.commands.get('rps').execute(message, args);
             break;
         case 'uptime':
-            bot.commands.get('uptime').execute(message, args, bot);
+            bot.commands.get('uptime').execute(message, bot);
             break;
         case '8ball':
-            bot.commands.get('8ball').execute(message, args, bot);
+            bot.commands.get('8ball').execute(message, args);
+            break;
+        case 'rate':
+            bot.commands.get('rate').execute(message, args);
             break;
     }
 })
