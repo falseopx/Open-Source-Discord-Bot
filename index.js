@@ -46,9 +46,6 @@ bot.on('message', message => {
         case 'kick':
             bot.commands.get('kick').execute(message, args, bot);
             break;
-        case 'help':
-            bot.commands.get('help').execute(message);
-            break;
         case 'urmom':
             bot.commands.get('urmom').execute(message);
             break;
@@ -84,6 +81,18 @@ bot.on('message', message => {
             break;
         case 'coin':
             bot.commands.get('coin').execute(message, args);
+            break;
+        case 'help':
+            bot.commands.get('help').execute(message);
+            break;
+        case 'help fun':
+            bot.commands.get('help fun').execute(message);
+            break;
+        case 'help mod':
+            bot.commands.get('help mod').execute(message);
+            break;
+        case 'help misc':
+            bot.commands.get('help misc').execute(message);
             break;
     }
 })
