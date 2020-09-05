@@ -14,7 +14,7 @@ for (const file of commandFiles){
 
 bot.on('ready', () => {
     console.log('beep boop im a retarded fuck');
-    bot.user.setActivity('Mario Kart With Branta and SaintClub').catch(console.error);
+    bot.user.setActivity('Made By Branta').catch(console.error);
 })
 
 bot.on('message', message => {
