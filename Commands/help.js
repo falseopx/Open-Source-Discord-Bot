@@ -19,7 +19,7 @@ module.exports = {
             { name: 'Server Info', value: 'Retrieves Server Info, usage: ~serverinfo', inline: true },
             { name: 'Memes', value: 'Sends A Dank Meme, usage: ~meme', inline: true },
             { name: 'Uptime', value: 'Replies With The Total Uptime Of The Bot, usage: ~uptime', inline: true },
-            { name: '8ball', value: 'Replies With Your Future, usage: ~8ball [question]', inline: true },
+            { name: '8Ball', value: 'Replies With Your Future, usage: ~8ball [question]', inline: true },
             { name: 'Rate', value: 'Rates A Person Of Your Choosing, usage: ~rate [person]', inline: true }
         )
         .setAuthor('Cub')
