@@ -72,7 +72,10 @@ bot.on('message', message => {
             break;
         case 'uptime':
             bot.commands.get('uptime').execute(message, args, bot);
-            break; 
+            break;
+        case '8ball':
+            bot.commands.get('8ball').execute(message, args, bot);
+            break;
     }
 })
 
