@@ -82,6 +82,9 @@ bot.on('message', message => {
         case 'kill':
             bot.commands.get('kill').execute(message);
             break;
+        case 'coin':
+            bot.commands.get('coin').execute(message, args);
+            break;
     }
 })
 
