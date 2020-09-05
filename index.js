@@ -79,6 +79,9 @@ bot.on('message', message => {
         case 'rate':
             bot.commands.get('rate').execute(message, args);
             break;
+        case 'kill':
+            bot.commands.get('kill').execute(message);
+            break;
     }
 })
 
