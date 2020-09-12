@@ -21,7 +21,7 @@ bot.on('message', message => {
     let args = message.content.substring(prefix.length).split(" ");
     if(message.author.bot) return;
 
-    if (message.content === 'stfu'){
+    if (message.content.includes === 'stfu'){
         message.reply ('no u stfu');
     }
 
