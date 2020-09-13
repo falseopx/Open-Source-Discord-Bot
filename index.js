@@ -94,6 +94,9 @@ bot.on('message', message => {
         case 'misc':
             bot.commands.get('misc').execute(message);
             break;
+        case 'mute':
+            bot.commands.get('mute').execute(message, args);
+            break;
     }
 })
 
