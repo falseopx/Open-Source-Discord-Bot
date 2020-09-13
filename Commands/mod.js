@@ -9,6 +9,7 @@ module.exports = {
             { name: 'Ban', value: 'Ban Someone, usage: ~ban [username]', inline: true },
             { name: 'Tempban', value: 'Temporarily Ban Someone, usage: ~tempban [username]', inline: true },
             { name: 'Kick', value: 'Kick Someone, usage: ~kick [username]', inline: true },
+            { name: 'Mute', value: 'Mutes The Given Member, usage: ~mute [user]', inline: true },
             { name: 'Clear', value: 'Clear Messages (max 200), usage: ~clear [amount of messages]', inline: true },
             { name: 'User Info', value: 'Retrieves User Info, usage: ~userinfo', inline: true },
             { name: 'Server Info', value: 'Retrieves Server Info, usage: ~serverinfo', inline: true }
